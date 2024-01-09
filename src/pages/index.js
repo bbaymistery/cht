@@ -2,7 +2,6 @@ import GlobalLayout from "../components/layouts/GlobalLayout";
 import Features from "../components/widgets/Features";
 import Hero from "../components/widgets/Hero";
 import MeetYourNeeds from "../components/widgets/MeetYourNeeds";
-import OurFleetHome from "../components/widgets/OurFleetHome";
 import SecurePayment from "../components/widgets/SecurePayment";
 import TestimonialLabel from "../components/widgets/TestimonialLabel";
 import env from "../resources/env";
@@ -11,7 +10,6 @@ export default function Home() {
   return (
     <GlobalLayout>
       <Hero />
-      <OurFleetHome />
       <MeetYourNeeds />
       <Features />
       <SecurePayment />
